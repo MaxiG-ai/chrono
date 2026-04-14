@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Chrono</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>UIColorName</key>
+        <string></string>
+    </dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>processing</string>
+    </array>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Chrono reads your calendar events so you can import them as time entries. Your calendar is never modified.</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Chrono reads your calendar events so you can import them as time entries. Your calendar is never modified.</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+        <string>app.chrono.Chrono.StartTimerIntent</string>
+        <string>app.chrono.Chrono.StopTimerIntent</string>
+        <string>app.chrono.Chrono.LogTimeIntent</string>
+    </array>
+    <key>NSSupportsLiveActivities</key>
+    <true/>
+    <key>NSSupportsLiveActivitiesFrequentUpdates</key>
+    <true/>
+    <key>UIAppFonts</key>
+    <array/>
+    <key>CFBundleURLTypes</key>
+    <array/>
+</dict>
+</plist>
